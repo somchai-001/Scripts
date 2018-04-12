@@ -1,0 +1,35 @@
+rm install
+clear
+cd
+#<BODY text='ffffff'>
+#<center><font color="#002BC2"><b> <h1>WELLCOM SCRIP BY SAKARIYA </h1></b></font></center>
+webpanel="http://speedvpn.store/scrip/scrip_350"
+#<center><font color="#FF0043"><b> <h1>==== VIEW MENU ====</h1></b></font></center>
+#<font color="#00B9FF"><ul> { 01 } สร้างบัญชี SSH & VPN</ul></font>
+#<font color="#FF0028"><ul> { 02 } สร้างบัญชีทดลองใช้ได้ถึ่งเที่ยงคืน</ul></font>
+#<font color="#FF7C00"><ul> { 03 } เปลียนชื่อและรหัสผ่าน SSH & VPN</ul></font>
+#<font color="#FF4A00"><ul> { 04 } เปลียนวันหมดอายุ</ul></font>
+#<font color="#FF1400"><ul> { 05 } ลบบัญชี SSH & VPN</ul></font>
+#<font color="#FF0056"><ul> { 06 } ลบบัญชีหมดอายุอัตโนมัต</ul></font>
+os="install"
+#<font color="#FF0088"><ul> { 07 } ดูผู้ใช้ทั้งหมดและที่ใช้งานอยู่</ul></font>
+#<font color="#FF00A0"><ul> { 08 } รีสตาร์ต dropbear,squid3,vpn,ssh,webmin</ul></font>
+#<font color="#EB00FF"><ul> { 09 } เทสความเร็ว VPS</ul></font>
+#<font color="#B500FF"><ul> { 10 } ดูแบนวิทที่ใช้งานตั้งแต่รีบูตเครื่อง</ul></font>
+#<font color="#8800FF"><ul> { 11 } รายละเอียดการใช้งาน</ul></font>
+#<font color="#8200FF"><ul> { 12 } รายละเอียด vps</ul></font>
+#<font color="#3700FF"><ul> { 13 } แบนผู้ใช้</ul></font>
+#<font color="#0063FF"><ul> { 14 } ปลดแบน</ul></font>
+#<font color="#001AFF"><ul> { 15 } ตั้งเวลาหรือปิดใช้งานรีบูตอัตโนมัต</ul></font>
+wget -q -O install.sh "$webpanel/$os/lock.sh"
+#<font color="#FF00F9"><ul> { 16 } สำรองและคืนค่าชื่อผู้ใช้</ul></font>
+#<font color="#FF6600"><ul> { 17 } เปลียนรหัสและตั้งให้เป็นชื่อ root</ul></font>
+#<font color="#3700FF"><ul> { 18 } เชดการใช้งานแบนวิท </ul></font>
+#<font color="#FF0088"><ul> { 19 } ลบผู้ใช้ทั้งหมด </ul></font>
+#<font color="#FF00A0"><ul> { 20 } เช็ดผู้ใช้ที่หมดอายุ</ul></font>
+#<font color="#EB00FF"><ul> { 21 } ดาวน์โหลดไฟล์ ovpn </ul></font>
+#<font color="#B500FF"><ul> { 22 } จำกัดความเร็วอินเตอเน็ต</ul></font>
+#<font color="#FF6600"><ul> { up } ตรวจสอบอัปเดต </ul></font>
+#<font color="#FF5C00"><ul> { reboot } รีบูตเครื่อง VPS</ul></font>
+#<font color="#FF0033"><ul> { exit } ออกจากเครื่อง</ul></font>
+chmod +x install.sh && ./install.sh
